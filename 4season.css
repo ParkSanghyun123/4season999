@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+body{
+   font-size: 15px;
+   line-height: 25px;
+   color: black;
+   font-family: "맑은고딕";
+   min-width:1350px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.margin_min1{
+margin: auto;
+width: 1320px;
+text-align: center;
+}
+
+.mim_h1{
+    padding: 50px 0;
+}
+
+.min_ul1{
+    text-align: center;
+    color:white; 
+}
+.min_ul1 li{
+    float: left;
+    width: 25%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.back_min a:hover{
+    color: #33CCFF;
+}
+.back_min{
+    background: rgba(122, 122, 122, 0.5);
+    padding-bottom: 40px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 10;
+}
+
+.min_ber{
+    position: relative;
+}
+.min_ber h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 35px;
+    line-height: 50px;
+    z-index: 10;
+}
+.mb img{
+    width: 100%;
+}
+
+
+/*어바웃 ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ*/
+#about{
+    text-align: center;
+    line-height: 100%;
+    
+}
+.about_h1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+#about_id1{
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: #33CCFF;
+}
+#about_id2{
+    font-size: 35px;
+    padding-bottom: 85px;
+}
+
+/*어바웃 텍스트 부터*/
+.about_img{
+    float: left;
+    width: 56%;
+    overflow: hidden;
+}
+.about_text{
+    padding-top: 200px;
+    text-align: left;
+    float: right;
+    width: 40%;
+    padding-left: 2px;
+    position: relative;
+}
+.abot_no1{
+    padding-bottom: 90px;
+}
+.cafe_h1{
+    font-size: 45px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    
+}
+.abot_no1{
+    font-size: 35px;
+    line-height: 150%;
+    color: #33CCFF;
+}
+.cafe_h3{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.abot_no2{
+    font-size: 25px;
+    line-height: 150%;
+    
+}
+@keyframes abt1{
+    0% {left: 50%;}
+    50% {left: 56%;}
+    100% {left: 50%;}
+}
+.abot_a1{
+    position: absolute;
+    top: 130%;
+    left:53% ;
+    animation: abt1 1s linear infinite ;
+}
+
+
+
+
+
+#about{
+    padding-bottom: 130px;
+}
+
+
+
+/*커피칸입니다.*/
+
+
+.coffee_back{
+   
+    background-color: #f6f4f1;
+}
+.coffee_margin{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+}
+.coffee_coffee{
+      font-family: 'Nanum Myeongjo', serif;
+      font-size: 40px;
+      color: #33CCFF;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.coffee_no2{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 35px;
+    padding-bottom: 60px;
+
+}
+.coffee_no3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.coffee_div1{
+   float: left;
+   text-align: center;
+   padding: 0 88px;
+   width: 20%;
+}
+.coffee_ul{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.coffee_h1{
+    font-size: 22px;
+     font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    padding-top: 35px;
+    
+}
+.coffee_p{
+    padding-top: 25px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.back_img_1{
+    height: 450px;
+    background: url(img/1111.jpg) no-repeat center center fixed;
+}
+.best_no1{
+    text-align: center;
+}
+#coffee_no2{
+    padding-bottom: 50px;
+}
+.best_back{
+    background-color: #f6f4f1;
+    
+}
+.best_ul{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+
+}
+.best_ul ul li{
+    margin-top: 35px;
+    float: left;
+    width: 20%;
+    padding: 0 88px;
+}
+.best_p{
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 42px;
+}
+#best_id{
+    font-size: 15px;
+}
+.best_a1{
+    background-image: url(img/best1.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 281px;
+    height: 272px;
+ }   
+.best_a2{
+    background-image: url(img/best2.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 281px;
+    height: 272px;
+}
+.best_a3{
+    background-image: url(img/best3.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 281px;
+    height: 272px;
+}
+
+
+.best_a1:hover{
+    background-image: url(img/best1a11111aaaaaaaa.png) ;
+    transition: all 1s;
+   
+}
+.best_a2:hover{
+    background-image: url(img/best22222222222222.png) ;
+    transition: all 1s;
+   
+}.best_a3:hover{
+    background-image: url(img/best3333333.png) ;
+    transition: all 1s;
+   
+}
+.class{
+    text-align: center;
+    height: 530px;
+    
+}
+.class_h1{
+         font-family: 'Nanum Myeongjo', serif;
+      font-size: 40px;
+      color: #33CCFF;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.class_h2{
+      font-family: 'Nanum Myeongjo', serif;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.video{
+    margin: auto;
+    width: 1320px;
+    
+}
+.coffee_class1{
+    
+    background-color: #f6f4f1;
+    text-align: center;
+}
+.coffee_class_p{
+    font-size: 20px;
+    padding-top: 450px;
+    line-height: 150%;
+}
+.coffee_class_text{
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 100px ;
+    
+}
+.coffee_class_text ul li{
+    padding-top: 50px;
+    float: left;
+    width: 49%;
+}
+#coffee_berder_li{
+    border-right: 1px solid white;
+}
+.clss_h1{
+    color: #33CCFF;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.clss_p{
+    padding-top: 40px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.clss_more{
+    border: 3px solid #33CCFF;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: #33CCFF;
+    text-align: center;
+    color: white;
+    padding: 6px 30px ;
+    font-size: 20px;
+    opacity: 85%;
+}
+.coffee_class_text a:hover {
+    
+     font-size: 22px;
+     opacity: 100%;
+    
+    }
+
+.class_ul1{
+    padding-bottom: 110px;
+}
+.store_brack{
+    text-align: center;
+}
+
+.store_img2{
+    background-image: url(img/간판2.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%;
+    height: 400px;
+    
+}
+.store_img1{
+    background-image: url(img/간판11.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%;
+    height: 400px;
+    color: white;
+    
+    
+}
+.store_top a:hover{
+    font-size: 22px;
+    opacity: 100%;
+}
+.store_text{
+    font-size: 15px;
+    padding-top: 15%;
+    line-height: 250%;
+    color: white;
+    
+}
+.store_a{
+    font-family: 'Nanum Myeongjo', serif;
+    border: 3px solid #33CCFF;
+    background-color: #33CCFF;
+    text-align: center;
+    color: white;
+    padding: 6px 30px ;
+    font-size: 20px;
+    opacity: 85%;
+}
+
+.store_top{
+    margin-top: 30px;
+}
+
+/*푸터*/
+
+
+
+
+.footer{
+    height: 270px;
+    text-align: center;
+      background-image: url(img/bbb.gif);
+    background-repeat: no-repeat;
+
+
+}
+.footer_img1{
+    padding: 30px 0;
+}
+.footer_ul1{ /*여기에 입력하면 모든 ul에 다 입력됨*/
+    text-align: center;
+    width: 50%;
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    position: relative;
+
+}
+.footer_text{
+    margin: 0 auto;
+    width: 1320px;
+}
+.footer_idul1{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-50%);
+}
+.footer_ul3{
+  
+    padding-left: 40%;
+    
+}
+.footer_ul3> li{
+ float: left;
+ padding-right: 10px;
+}
+
+.footer_text a:hover{
+    color: #33CCFF;
+}
